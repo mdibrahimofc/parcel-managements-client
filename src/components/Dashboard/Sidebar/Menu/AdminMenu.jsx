@@ -1,6 +1,6 @@
 import MenuItem from "./MenuItem"
 import { IoIosListBox } from "react-icons/io";
-import { FcBusinessman } from "react-icons/fc";
+import { FcBusinessman, FcSettings } from "react-icons/fc";
 import { FaUser } from "react-icons/fa";
 import { IoIosStats } from "react-icons/io";
 
@@ -30,6 +30,11 @@ const AdminMenu = () => {
             label='All Users'
             address='all-users'
           />
+    <MenuItem
+                icon={FcSettings}
+                label="Profile"
+                address="/dashboard/profile"
+              />
     </>
   )
 }

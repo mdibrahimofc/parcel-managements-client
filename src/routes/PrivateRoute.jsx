@@ -8,7 +8,7 @@ const PrivateRoute = ({ children, role }) => {
   const { user, loading } = useAuth()
   const location = useLocation()
   const {userRole, isLoading} = useUserRole()
-  console.log(userRole);
+  console.log(userRole, role);
 
   if (loading || isLoading) return <LoadingSpinner />
 

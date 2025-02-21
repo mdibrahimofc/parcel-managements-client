@@ -73,7 +73,7 @@ export const router = createBrowserRouter([
       {
         path: 'statistics',
         element: (
-          <PrivateRoute role={"Admin"}>
+          <PrivateRoute role={"common"}>
             <Statistics/>
           </PrivateRoute>
         ),
@@ -114,7 +114,7 @@ export const router = createBrowserRouter([
       {
         path: 'profile',
         element: (
-          <PrivateRoute role={"User"}>
+          <PrivateRoute role={"common"}>
             <Profile />
           </PrivateRoute>
         ),
