@@ -1,4 +1,5 @@
 import Banner from '@/components/Home/Banner'
+import DeliveryProcess from '@/components/Home/DeliveryProcess'
 import DeliverySection from '@/components/Home/DeliverySection'
 import Feauture from '@/components/Home/Feauture'
 import JoinTheCrew from '@/components/Home/JoinTheCrew'
@@ -18,6 +19,7 @@ const Home = () => {
       <DeliverySection/>
       <TopDeliveryMen/>
       <JoinTheCrew/>
+      <DeliveryProcess/>
     </div>
   )
 }
