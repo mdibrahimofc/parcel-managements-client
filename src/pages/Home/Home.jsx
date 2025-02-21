@@ -1,4 +1,5 @@
 import Banner from '@/components/Home/Banner'
+import DeliveryFeature from '@/components/Home/DeliveryFeature'
 import DeliveryProcess from '@/components/Home/DeliveryProcess'
 import DeliverySection from '@/components/Home/DeliverySection'
 import Feauture from '@/components/Home/Feauture'
@@ -20,6 +21,7 @@ const Home = () => {
       <TopDeliveryMen/>
       <JoinTheCrew/>
       <DeliveryProcess/>
+      <DeliveryFeature/>
     </div>
   )
 }
