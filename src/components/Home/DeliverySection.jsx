@@ -51,9 +51,9 @@ const DeliverySection = () => {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 {item.description}
               </p>
-              <button className="text-gray-600 dark:text-gray-400 mb-4">
+              <h2 className="text-gray-600 dark:text-gray-400 mb-4">
                 Order Now
-              </button>
+              </h2>
             </div>
           ))}
         </div>

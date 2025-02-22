@@ -50,9 +50,9 @@ const JoinTheCrew = () => {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 {role.description}
               </p>
-              <button className="text-gray-600 dark:text-gray-400 mb-4">
+              <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Join Us
-              </button>
+              </p>
             </div>
           ))}
         </div>
