@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import deliveryImage from "../../assets/Home/3333449.jpg";
 
 const DeliveryFeature = () => {
@@ -12,8 +13,8 @@ const DeliveryFeature = () => {
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
             Choose from a wide range of products, including groceries, household items, and more. Our reliable delivery service ensures your items arrive fresh and on time. Experience the convenience of contactless delivery and 24/7 customer support for a seamless shopping experience.
           </p>
-          <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded-md hover:bg-yellow-600">
-            Order Now
+          <button onClick={()=> toast.success("Thank you! You will recived important message.")} className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded-md hover:bg-yellow-600">
+            Notify Me
           </button>
         </div>
 

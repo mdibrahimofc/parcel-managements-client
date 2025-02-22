@@ -45,8 +45,8 @@ const DeliveryProcess = () => {
               </div>
               <h3 className="mt-4 text-lg font-semibold">{step.id}. {step.title}</h3>
               <p className="mt-1">{step.description}</p>
-              <p className="mt-4 text-yellow-500 hover:text-yellow-600 flex items-center mx-auto">
-                ▼ More Info
+              <p className="mt-4 text-yellow-500 hover:text-yellow-600 justify-center flex items-center mx-auto">
+                More Info
               </p>
             </div>
           ))}
